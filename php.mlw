@@ -1,0 +1,68 @@
+module Dirichlet
+
+use ref.Ref
+use int.Int
+use array.Array
+use option.Option
+
+(* array a: indices from 0 to n inclusive; values from 0 to n-1 inclusive *)
+let rec dirichletArray (n : int) (a : array int) : (ri : int, rn : int)
+  (* requires { n > 0} *)
+  requires { 0 <= n = length a - 1 }
+  requires { forall i. 0 <= i <= n -> 0 <= a[i] < n}
+  ensures { a[ri] = a[rn] }
+=
+  let n = ref n in
+  let i = ref 0 in
+  let n_ = ref 0 in
+  let i_ = ref 0 in
+  let found = ref false in
+  while not !found && !n > 0 do
+    invariant { !found -> a[!n_] = a[!i_] }
+    invariant { !n >= 0 }
+    invariant { 0 <= !n < length a }
+    invariant { !n <= 1 -> a[!i_] = a[!n_] }
+    variant { !n }
+    i := 0;
+    while !i < !n && not !found do
+      invariant { !n - !i >= 0}
+      invariant { !i >= 0 }
+      invariant { !found -> a[!n_] = a[!i_] }
+      invariant { !n <= 1 -> a[!i_] = a[!n_]}
+      variant { !n - !i }
+      if a[!i] = a[!n] then 
+      begin
+        found := true;
+        i_ := !i;
+        n_ := !n;
+      end;
+      i := !i + 1
+    done;
+
+    if (not !found) && a[!n] <> !n then
+    begin
+      i := 0;
+      while !i < !n do
+        invariant { !n - !i >= 0 }
+        invariant { !i >= 0 }
+        invariant { a[!n] < !n }
+        
+        variant { !n - !i }
+        if a[!i] >= !n then a[!i] <- a[!n];
+        assert { a[!i] < !n };
+        i := !i + 1
+      done
+    end;
+    n := !n - 1
+  done;
+  (!i_, !n_)
+
+let test ()
+=
+  let n = 10 in
+  let a = make n 0 in
+    a[0] <- 8; a[1] <- 5; a[2] <- 0; a[3] <- 2; a[4] <- 7;
+    a[5] <- 3; a[6] <- 2; a[7] <- 1; a[8] <- 7; a[9] <- 6;
+    dirichletArray 9 a
+
+end
