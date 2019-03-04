@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="5">
+<prover id="0" name="Alt-Ergo" version="2.2.0" timelimit="5" steplimit="0" memlimit="1000"/>
+<file name="../php.mlw" proved="true">
+<theory name="Dirichlet">
+ <goal name="VC dirichletArray">
+ <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+ <transf name="split_all_full" >
+  <goal name="VC dirichletArray.0">
+  <proof prover="0"><result status="valid" time="0.00" steps="0"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.1">
+  <proof prover="0"><result status="valid" time="0.00" steps="6"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.2">
+  <proof prover="0"><result status="valid" time="0.01" steps="18"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.3">
+  <proof prover="0"><result status="valid" time="0.01" steps="19"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.4">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.5">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.6">
+  <proof prover="0"><result status="valid" time="0.01" steps="38"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.7">
+  <proof prover="0"><result status="valid" time="0.01" steps="38"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.8">
+  <proof prover="0"><result status="valid" time="0.01" steps="39"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.9">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.10">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.11">
+  <proof prover="0"><result status="valid" time="0.01" steps="33"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.12">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.13">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.14">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.15">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.16">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.17">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.18">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.19">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.20">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.21">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.22">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.23">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.24">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.25">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.26">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.27">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.28">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.29">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.30">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.31">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.32">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.33">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.34">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.35">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.36">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.37">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.38">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.39">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.40">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.41">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.42">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.43">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.44">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.45">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.45.0">
+   <proof prover="0"><result status="unknown" time="0.03"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.46">
+  <proof prover="0"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.46.0">
+   <proof prover="0"><result status="unknown" time="0.04"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.46.1">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.47">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.48">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.49">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.50">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.51">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.52">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.53">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.54">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.55">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.56">
+  <proof prover="0"><result status="valid" time="0.01" steps="34"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.57">
+  <proof prover="0"><result status="valid" time="0.01" steps="35"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.58">
+  <proof prover="0"><result status="valid" time="0.01" steps="42"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.59">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.60">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.61">
+  <proof prover="0"><result status="valid" time="0.01" steps="52"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.62">
+  <proof prover="0"><result status="valid" time="0.01" steps="52"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.63">
+  <proof prover="0"><result status="valid" time="0.02" steps="53"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.64">
+  <proof prover="0"><result status="valid" time="0.01" steps="46"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.65">
+  <proof prover="0"><result status="valid" time="0.01" steps="46"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.66">
+  <proof prover="0"><result status="valid" time="0.01" steps="47"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.67">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.68">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.69">
+  <proof prover="0"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.69.0">
+   <proof prover="0"><result status="unknown" time="0.04"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.69.1">
+   <proof prover="0"><result status="valid" time="0.01" steps="35"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.70">
+  <proof prover="0"><result status="valid" time="0.01" steps="34"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.71">
+  <proof prover="0"><result status="valid" time="0.01" steps="34"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.72">
+  <proof prover="0"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.72.0">
+   <proof prover="0"><result status="unknown" time="0.04"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.72.1">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.73">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.74">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.75">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.76">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.77">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.78">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.79">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.80">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.81">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.82">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.83">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.84">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.85">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.86">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.87">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.88">
+  <proof prover="0"><result status="unknown" time="0.04"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.89">
+  <proof prover="0"><result status="unknown" time="0.04"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.90">
+  <proof prover="0"><result status="valid" time="0.01" steps="18"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.91">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.92">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.93">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.94">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.95">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.96">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.97">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.98">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.99">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.100">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.101">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.102">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.103">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.104">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.105">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.106">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.107">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.108">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.109">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.110">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.111">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.112">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.113">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.114">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.115">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.116">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.117">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.118">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.119">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.120">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.121">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.122">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.123">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.124">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.125">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.126">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.127">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.128">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.129">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.130">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.131">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.132">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.133">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.134">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.135">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.136">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.137">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.138">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.139">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.140">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.141">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.142">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.143">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.144">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.145">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.146">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.147">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.148">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.149">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.150">
+  <proof prover="0"><result status="valid" time="0.02" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.151">
+  <proof prover="0"><result status="valid" time="0.02" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.152">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.153">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.154">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.155">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.156">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.157">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.158">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.159">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.160">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.161">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.162">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.163">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.164">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.165">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.166">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.167">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.168">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.169">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.170">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.171">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.172">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.173">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.174">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.175">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.176">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.177">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.178">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.179">
+  <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.20">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.121">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.69">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.170">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.40">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.141">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.89">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.190">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.24">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.125">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.73">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.174">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.44">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.145">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.93">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.194">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.13">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.114">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.62">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.163">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.33">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.134">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.82">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.183">
+  <proof prover="0"><undone/></proof>
+  </goal>
+ </transf>
+ </goal>
+ <goal name="VC test">
+ <proof prover="0" obsolete="true"><result status="valid" time="0.14" steps="194"/></proof>
+ </goal>
+</theory>
+</file>
+</why3session>

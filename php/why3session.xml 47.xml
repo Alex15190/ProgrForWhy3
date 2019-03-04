@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="5">
+<prover id="0" name="Alt-Ergo" version="2.2.0" timelimit="5" steplimit="0" memlimit="1000"/>
+<file name="../php.mlw">
+<theory name="Dirichlet">
+ <goal name="VC dirichletArray" expl="VC for dirichletArray">
+ <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+ <transf name="split_all_full" >
+  <goal name="VC dirichletArray.0" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.00" steps="0"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.1" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.00" steps="4"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.2" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.00" steps="4"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.3" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.00" steps="0"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.4" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="16"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.5" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="17"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.6" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="18"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.7" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="22"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.8" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.9" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.10" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="36"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.11" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="36"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.12" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="37"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.13" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.13.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="34"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.14" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="45"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.15" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.16" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.17" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="31"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.18" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.19" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="38"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.20" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.21" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.22" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.23" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.24" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.25" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.26" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.27" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.28" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.29" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.30" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.31" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.32" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.33" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.34" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.35" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.36" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="valid" time="0.01" steps="30"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.36.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.145.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.37" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.38" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.39" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.40" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.41" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.06"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.41.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.42" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.43" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.44" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.45" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.45.0" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.45.1" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.46" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.47" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.48" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.49" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.50" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.51" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.52" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.53" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.54" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.55" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.56" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.57" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.58" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.59" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.60" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.61" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.62" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="valid" time="0.01" steps="30"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.62.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.03" steps="25"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.55.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.63" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.64" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.65" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.66" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.07"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.66.0" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.02" steps="25"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.66.1" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.02" steps="25"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.67" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.68" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.69" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.05"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.69.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="27"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.70" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.71" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.71.0" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.71.1" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="28"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.72" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="36"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.73" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.74" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.75" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.76" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.77" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.78" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.78.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="20"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.79" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.80" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.81" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.82" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.83" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.05"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.83.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="20"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.84" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="24"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.85" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="26"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.86" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.87" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="33"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.88" expl="loop invariant init">
+  <proof prover="0"><result status="unknown" time="0.04"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.89" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="42"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.90" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.91" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.92" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="53"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.93" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="54"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.94" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="54"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.95" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="55"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.96" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="75"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.97" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.98" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="47"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.99" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="47"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.100" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="48"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.101" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.05"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.101.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.74.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.102" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.103" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.104" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.02" steps="44"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.105" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.105.0" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="40"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.105.1" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="40"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.106" expl="loop invariant preservation">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.05"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.106.0" expl="loop invariant preservation">
+   <proof prover="0"><result status="unknown" time="0.05"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.107" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.108" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.109" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.110" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.110.0" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.02" steps="28"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.110.1" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.02" steps="28"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.111" expl="loop invariant preservation">
+  <proof prover="0"><result status="unknown" time="0.04"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.112" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.113" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.114" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.115" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.116" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.117" expl="index in array bounds" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.118" expl="assertion" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.119" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.120" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.121" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.122" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.123" expl="assertion" proved="true">
+  <proof prover="0" obsolete="true"><result status="valid" time="0.02" steps="55"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.123.0" expl="assertion" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.124" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.125" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.126" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.127" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.05"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.127.0" expl="loop invariant preservation" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.107.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.128" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.129" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.130" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.131" expl="loop invariant preservation" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.05"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.131.0" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+   <goal name="VC dirichletArray.131.1" expl="VC for dirichletArray" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="25"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.132" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="30"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.133" expl="loop variant decrease" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.134" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.135" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="32"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.136" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="33"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.137" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="36"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.138" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" time="0.01" steps="14"/></proof>
+  </goal>
+  <goal name="VC dirichletArray.139" expl="postcondition" proved="true">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.03"/></proof>
+  <transf name="split_vc" proved="true" >
+   <goal name="VC dirichletArray.139.0" expl="postcondition" proved="true">
+   <proof prover="0"><result status="valid" time="0.01" steps="12"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.32">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.103">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.60">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.131">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.37">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.108">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.65">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.136">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.12">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.83">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.18">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.89">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.41">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.112">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.69">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.140">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.146">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.113">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.72">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.86">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.52">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.123">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.05"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.123.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+   <goal name="VC dirichletArray.118.1">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.80">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.80.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+   <goal name="VC dirichletArray.77.1">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.151">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.151.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+   <goal name="VC dirichletArray.146.1">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.46">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.117">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.74">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.145">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.16">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.87">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.22">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.06"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.22.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+   <goal name="VC dirichletArray.112.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.93">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.51">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.148">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.98">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.195">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.49">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.95">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.43">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.04"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.43.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.89">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.37">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.83">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.47">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.94">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.2">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.4">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.8">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.4">
+  <proof prover="0" obsolete="true"><result status="unknown" time="0.03"/></proof>
+  <transf name="split_vc" >
+   <goal name="VC dirichletArray.4.0">
+   <proof prover="0"><undone/></proof>
+   </goal>
+   <goal name="VC dirichletArray.4.1">
+   <proof prover="0"><undone/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="VC dirichletArray.62">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.163">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.33">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.134">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.82">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.183">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.10">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.81">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.24">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.95">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.29">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.100">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.57">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.128">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.30">
+  <proof prover="0"><undone/></proof>
+  </goal>
+  <goal name="VC dirichletArray.101">
+  <proof prover="0"><undone/></proof>
+  </goal>
+ </transf>
+ </goal>
+ <goal name="VC test" expl="VC for test" proved="true">
+ <proof prover="0"><result status="valid" time="0.14" steps="194"/></proof>
+ </goal>
+</theory>
+</file>
+</why3session>
